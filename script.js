@@ -1,6 +1,6 @@
 function makeid(l) {
   // write your code here
-	let chara="ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+	let chara="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 let res="";
 	for(let i=0;i<l;i++){
 		let index=Math.floor(Math.random()*chara.length);
